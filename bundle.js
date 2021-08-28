@@ -29,7 +29,7 @@
   var column_default = column((message) => __async(void 0, null, function* () {
     if (message.value === void 0)
       return void 0;
-    return `echo ${message.value}`;
+    return `echo ${message.value}!!!`;
   }));
 
   // src/index.ts
